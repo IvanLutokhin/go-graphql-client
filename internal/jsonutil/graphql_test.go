@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hasura/go-graphql-client/internal/jsonutil"
+	"github.com/IvanLutokhin/go-graphql-client/internal/jsonutil"
 )
 
 func TestUnmarshalGraphQL(t *testing.T) {
