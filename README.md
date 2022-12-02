@@ -1,7 +1,7 @@
 go-graphql-client
 =======
 
-[![Build Status](https://travis-ci.org/hasura/go-graphql-client.svg?branch=master)](https://travis-ci.org/hasura/go-graphql-client.svg?branch=master) [![GoDoc](https://godoc.org/github.com/hasura/go-graphql-client?status.svg)](https://pkg.go.dev/github.com/hasura/go-graphql-client)
+[![Build Status](https://travis-ci.org/hasura/go-graphql-client.svg?branch=master)](https://travis-ci.org/hasura/go-graphql-client.svg?branch=master) [![GoDoc](https://godoc.org/github.com/IvanLutokhin/go-graphql-client?status.svg)](https://pkg.go.dev/github.com/IvanLutokhin/go-graphql-client)
 
 **Preface:** This is a fork of `https://github.com/shurcooL/graphql` with extended features (subscription client, named operation)
 
@@ -49,7 +49,7 @@ For more information, see package [`github.com/shurcooL/githubv4`](https://githu
 `go-graphql-client` requires Go version 1.16 or later. For older Go versions, downgrade the library version below v0.7.1.
 
 ```bash
-go get -u github.com/hasura/go-graphql-client
+go get -u github.com/IvanLutokhin/go-graphql-client
 ```
 
 ## Usage
@@ -80,7 +80,7 @@ func main() {
 
 ### Simple Query
 
-To make a GraphQL query, you need to define a corresponding Go type. Variable names must be upper case, see [here](https://github.com/hasura/go-graphql-client/blob/master/README.md#specify-graphql-type-name)
+To make a GraphQL query, you need to define a corresponding Go type. Variable names must be upper case, see [here](https://github.com/IvanLutokhin/go-graphql-client/blob/master/README.md#specify-graphql-type-name)
 
 For example, to make the following GraphQL query:
 
